@@ -19,5 +19,25 @@ public class Vehiculo{
 
 	}
 
+	public String getTipoCombustible(){
+		return tipoCombustible;
+	}
+
+	public int getCantidadCombustible(){
+		return cantidadCombustible;
+	}
+
+
+	public int getCantidadPasajeros(){
+		return cantidadPasajeros;
+	}
+
+	public int getVelocidadMaxima(){
+		return velocidadMaxima;
+	}
+
+	public double getAceleracionBase(){
+		return aceleracionBase;
+	}
 
 }
